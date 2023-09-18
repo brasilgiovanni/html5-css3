@@ -80,3 +80,33 @@ li {
     padding: none;
     margin: 10px;
 }
+
+/* Estilos de escrita */
+#letrasMaiores {
+    font-size: 28px;
+}
+
+.spacing_underline {
+    letter-spacing: 5px;
+    text-decoration: underline;
+}
+
+.serif {
+    font-family: Georgia;
+}
+
+.sans-serif {
+    font-family: Helvetica;
+}
+
+.monospace {
+    font-style: "Courier New";
+}
+
+.fantasy {
+    font-family: fantasy;
+}
+
+.cursive {
+    font-family: cursive;
+}
