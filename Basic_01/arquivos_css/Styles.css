@@ -1,0 +1,82 @@
+/*  Definindo uma classe de efeito */
+.spyder {
+    color: rgba(130, 3, 3, 0.936);
+    font-style: italic;
+}
+
+/* Definindo o plano de fundo prateado para toda a página */
+body {
+    background-color: silver;
+}
+
+/* Estilizando os títulos */
+h1 {
+    font-size: 24px;
+    color: navy;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    color: navy;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 18px;
+    color: navy;
+    font-weight: bold;
+}
+
+/* Estilizando o corpo de texto */
+p {
+    font-size: 16px;
+    color: navy;
+}
+
+/* Estilizando listas não enumeradas */
+ul {
+    list-style-type: disc; /* Marcadores redondos */
+    margin-left: 20px; /* Recuo à esquerda para as listas não enumeradas */
+    color: navy;
+}
+
+/* Estilizando listas numeradas */
+ol {
+    list-style-type: decimal; /* Marcadores numéricos */
+    margin-left: 20px; /* Recuo à esquerda para as listas numeradas */
+    color: navy;
+}
+
+/* Estilizando itens de lista */
+li {
+    font-size: 16px;
+}
+
+/* Box model */
+
+/* Box model pelo id*/
+#id_box_model {
+    padding: 10px; 
+    border: 5px solid #459;
+    border-radius: 7px;
+    margin: 10px;
+    outline: 5px solid #952;
+    background-color:silver;
+    width: 200 px;
+    height: 100 px;
+}
+
+.box-model01 {
+    padding: 10px 10px ; 
+    border: 3px dotted black;
+    border-radius: 7px;
+    margin: 20px rgba(0, 100, 100, 0,3);
+    background-color: none;
+    color: none;
+}
+
+.box-model-header02 {
+    padding: none;
+    margin: 10px;
+}
