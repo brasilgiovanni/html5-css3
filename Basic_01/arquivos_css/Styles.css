@@ -6,7 +6,7 @@
 
 /* Definindo o plano de fundo prateado para toda a página */
 body {
-    background-color: silver;
+    background-color: rgb(216, 216, 216);
 }
 
 /* Estilizando os títulos */
@@ -109,4 +109,39 @@ li {
 
 .cursive {
     font-family: cursive;
+}
+
+.container {
+    text-align: center;
+}
+
+/* Display block */
+.inline-block {
+    font-size: 16px;
+    width: 100px;
+    background-color: #4f8;
+    margin: 10px;
+    display: inline-block;
+}
+
+.img01 {
+    position: fixed;
+    top: 0; /* Define a distância a partir do topo da página (ajuste conforme necessário) */
+    right: 0; /* Define a distância a partir da margem direita da página (ajuste conforme necessário) */
+}
+
+.scrollable-div {
+    width: 300px; /* Defina a largura desejada */
+    height: 200px; /* Defina a altura desejada */
+    overflow: auto; /* Adiciona barras de rolagem automaticamente quando o conteúdo excede as dimensões especificadas */
+    padding: 5px;
+    margin: 3pm solid red;
+    border-radius: 5px;
+    background-color: rgba(0, 255, 255, 0.2);
+    
+}
+
+.comentario {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
 }
