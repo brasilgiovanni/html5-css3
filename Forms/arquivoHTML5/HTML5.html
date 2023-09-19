@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="../arquivoCSS3/styles.css" />
+</head>
+<body>
+    <h2>Formularios HTML</h2>
+    <!--1 Primeiro formulario -->
+    <!--2 Atributos do formulario -->
+    <form action="register.php" method="GET">
+        <div>
+            <label>Nome: </label>
+           
+            <input type="text" />
+        </div>
+        <!-- 3 Atributo Name-->
+        <div>
+            <label for="age">Idade: </label> <!--O atributo for auxilia a dizer a quem a aquela label se refere, ideal botar o mesmo nome do atributo "name"-->
+            
+            <input type="text" name="age"/> <!--O atributo name permite criar uma referência no código para aquela informação (input)-->
+        </div>
+        <!-- SELECT-->
+        <div>
+            <label for="job">Selecione a sua profissão</label>
+            <select name="job">
+                <option value="programador">Programador</option>
+                <option value="analista">Analista</option>
+                <option value="cientista">Cientista</option>
+                <option value="engenheiro">Engenheiro</option>
+            </select>
+        </div>
+        <!-- atributo Selected -->
+        <div>
+            <label for="contract">Voce leu os termos do contrato?</label>
+            <select name="contract">
+                <option value="Sim">Sim</option>
+                <option value="Não" selected>Não</option> <!--define como padrão começar com a opção "NÃO"-->
+            </select>
+        </div>
+        <!-- envio de formulario-->
+        <input type="submit" value="Enviar" /> <!-- aqui ele tenta enviar para o servidor no caminho indicado em action: "register.php"-->
+    </form>
+    <br>
+    <!-- atributo Multiple Selected -->
+    <form action="lanches.php" method="GET">
+        <div>
+            <label for="items">Selecione os igredientes desejados</label>
+            <select name="items" multiple>
+                <option value="Pao">Pão</option>
+                <option value="Hamburguer">Hamburguer</option>
+                <option value="Queijo">Queijo</option>
+                <option value="Tomate">Tomate</option>
+                <option value="Alface">Alface</option>
+                <option value="Pepino">Pepino</option>
+                <option value="Maionese">Maionese</option>
+                <option value="humus">Humus</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>

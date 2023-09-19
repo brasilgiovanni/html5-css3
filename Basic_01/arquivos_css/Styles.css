@@ -135,13 +135,17 @@ li {
     height: 200px; /* Defina a altura desejada */
     overflow: auto; /* Adiciona barras de rolagem automaticamente quando o conteúdo excede as dimensões especificadas */
     padding: 5px;
-    margin: 3pm solid red;
+    border: 3px solid rgb(101, 4, 4); /* Corrigindo esta linha para definir a borda */
     border-radius: 5px;
-    background-color: rgba(0, 255, 255, 0.2);
-    
+    background-color: rgba(168, 221, 221, 0.2);
 }
 
-.comentario {
+
+#comentario {
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
+}
+
+label {
+    display:block;
 }
