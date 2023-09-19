@@ -7,11 +7,42 @@ div {
     
 }
 
-div label {
-    display: block;
-    margin-bottom: 10px; /* Adicione a margem inferior desejada */
+input {
+    margin-bottom: 10px;
 }
 
-input {
+label {
+    display:block;
+}
+
+.lanches {
     display: block;
+}
+
+.flavors {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-weight: 400;
+}
+
+#loginUser {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.radio label,
+.radio input,
+.radio span {
+    display:inline-block;
+    margin: 10px;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;;
+}
+
+.titulo-opcoes {
+    margin-bottom: 10px; 
 }
