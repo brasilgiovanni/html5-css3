@@ -34,7 +34,7 @@ p {
 }
 
 .logo {
-    width: 50px;
+    width: 55px;
     margin-top: 15px;
 }
 
@@ -143,4 +143,79 @@ p {
 
 .services-container p {
     line-height: 24px;
+}
+
+/* plans and prices */
+
+.pricing-container {
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+.pricing-container h2 {
+    font-size: 36px;
+}
+
+.pricing-container p {
+    font-size: 20px;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: space-between;
+    width:95%;
+    margin: 0 auto;
+}
+
+.plan {
+    flex: 1;
+    max-width: 275px;
+    margin: 0 35px;
+}
+
+.plan ul {
+    padding: 0;
+}
+
+.plan li {
+    list-style: none;
+    height: 40px;
+    line-height: 40px;
+    background-color: #e8e9ea;
+    color: #333;
+}
+
+.plan .price {
+    width: 220px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #2cc76a;
+    color: #FFF;
+    text-align: center;
+    line-height: 70px;
+    margin: 0 auto -50px;
+    font-size: 18px;
+    /* position: relative; deixaria o circulo verde com preço acima do retangulo cinza das caracteristicas */
+}
+
+.plan .plan-name {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFF;
+    background-color: #202b34;
+    padding: 0;
+}
+
+.plan .plan-btn {
+    background-color: #2cc762;
+    color: #FFF;
+    font-size: 24px;
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.plan .recommended {
+    background-color: #f45657;
 }
