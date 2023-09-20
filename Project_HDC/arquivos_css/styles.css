@@ -1,3 +1,75 @@
-h1 {
-    color: red;
+/* Geral */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+    /* Serve para os Inputs */
+}
+
+h1,
+h2,
+h3 {
+    color: #333;
+}
+
+p {
+    color: #70747a;
+}
+
+/*   NavBar   */
+.navbar-container {
+    width: 100%;
+    height: 80px;
+    background-color: #232a31;
+    padding: 0 2rem;
+    /* Aqui temos 0 de espaçamento vertical e 2rem de espaçamento horizontal.
+    rem é uma unidade de medida que é relativa ao tamanho da fonte do elemento pai.
+     Se a fonte padrão do documento for, por exemplo, 16 pixels, então 1rem será igual a 16 pixels.*/
+}
+
+.nav {
+    position: relative;
+
+}
+
+.logo {
+    width: 50px;
+    margin-top: 15px;
+}
+
+.navbar-items {
+    position: absolute; /* Esta relativa ao elemento PAI (.nav) */
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    display: inline-block;
+}
+
+.navbar-items li {
+    display:inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+.navbar-items a {
+    color: #FFF;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navbar-items a:hover {
+    color: silver;
+}
+
+.default-btn {
+    padding: 15px 20px;
+    background-color: #2cc76a;
+    border-radius: 7px;
+    margin: 5px;
+}
+
+.default-btn:hover{
+    background-color: #232a31;
 }
