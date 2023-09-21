@@ -3,4 +3,36 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fafafac9;
+}
+
+/* CONTAINERS */
+#main-container {
+    display: flex;
+    margin-top: 30px;
+}
+
+#banner-container,
+#form-container {
+    flex: 1 1 0; /* tem 1 de grow, 1 de stritch e 0 de basis */
+    width: 50%;
+}
+
+#banner-container {
+    text-align: right;
+}
+
+#banner-container img {
+    width: 100%;
+    margin-right: 15px;
+    margin-top: 25px;
+    max-width: 380px;
+}
+
+#form-container {
+    text-align: center;
 }
