@@ -13,7 +13,7 @@ body {
 /* CONTAINERS */
 #main-container {
     display: flex;
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
 #banner-container,
@@ -29,12 +29,14 @@ body {
 #banner-container img {
     width: 100%;
     margin-right: 15px;
-    margin-top: 25px;
-    max-width: 450px;
+    margin-top: 20px;
+    max-width: 350px;
 }
 
 #form-container {
     text-align: center;
+    margin-top: 30px;
+    margin-left: 30%;
 }
 
 /* LOGIN FORM */
@@ -83,8 +85,9 @@ body {
 }
 
 /* SEPARADOR */
-.separtor {
+.separator {
     position: relative; /* a classe maior esta relativa, para que as subclasses sejam position absolute e possam se movimentar dentro do contexto*/
+    text-align: center;
 }
 
 .line {
@@ -94,14 +97,14 @@ body {
 }
 
 .separator span {
-    position: absolute;
+    position:absolute;
     text-transform: uppercase;
     color: #dbdbdd;
     background-color: #FFF;
-    top: -6px;
     width: 50px;
     margin-left: -25px;
     font-size: 14px;
+    top: -6px;
 }
 
 /* FACEBOOK LOGIN */
@@ -168,36 +171,34 @@ body {
 }
 
 #get-app-container p {
-    margin: 20px 0;
-    font-size: 13px;
+    margin: 40px 0 0 0;
+    font-size: 14px;
 }
 
 #get-app-container a {
     text-decoration: none;
 }
 
-.applestore {
-    max-width: 200px;
-    height: 50px;
-}
-
+.applestore,
 .googleplay {
-    height: 120px;
+    display: inline-block;
+    vertical-align: middle;
+    max-height: 100px; 
+    max-width: 150px;
 }
 
 /* FOOTER */
 footer {
-    text-align: left;
-    width: 1000px;
-    margin: 50px auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: 20px auto;
 }
 
 footer #footer-links {
-    display: flex;
     list-style: none;
+    display: flex; /* Use flex para colocar os links na mesma linha */
+    padding: 0;
+    justify-content: center; /* Centralize os links horizontalmente */
 }
 
 #footer-links li {
@@ -209,10 +210,12 @@ footer #footer-links {
 #version {
     text-decoration: none;
     color: #8e8e8e;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 #copyright,
 #version {
     margin-top: 10px;
 }
+
+
